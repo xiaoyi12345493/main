@@ -1,0 +1,28 @@
+1 VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+FILEFLAGSMASK   0x3F
+FILEFLAGS       0x0
+FILEOS          0x40004L
+FILETYPE        0x1L
+FILESUBTYPE     0x0L
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "080404b0"
+    BEGIN
+      VALUE "CompanyName",      "Xiaoyi Studio"
+      VALUE "FileDescription",  "My Super Fake CPU Simulator"
+      VALUE "FileVersion",      "1.0.0.0"
+      VALUE "LegalCopyright",   "Copyright (C) 2026 Xiaoyi. All rights reserved."
+      VALUE "OriginalFileName", "main.exe"
+      VALUE "ProductName",      "Fake CPU"
+      VALUE "ProductVersion",   "1.0.0.0"
+      VALUE "Comments",         "Bypassing reality..."
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x804, 1200
+  END
+END
